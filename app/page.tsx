@@ -3,12 +3,7 @@ import { useState, useEffect, useRef, useCallback } from "react"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
-interface Question {
-  question: string
-  answer: string // The correct answer string
-  category: "Geography" | "History"
-  options: string[] // Array of multiple choice options
-}
+
 
 const allTriviaQuestions: Question[] = [
   {
