@@ -12,7 +12,11 @@ interface Question {
 
 const allTriviaQuestions: Question[] = [
   {
-    
+    question: "What is the capital of France?",
+    answer: "Paris",
+    category: "Geography",
+    options: ["London", "Berlin", "Paris", "Rome"],
+  },
   {
     question: "Which is the longest river in the world?",
     answer: "Nile",
